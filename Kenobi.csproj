@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Configurations>Debug;Release</Configurations>
+        <Nullable>enable</Nullable>
+        <LangVersion>latest</LangVersion>
+        <Optimize>False</Optimize>
+        <DebugType>embedded</DebugType>
+        <PackageId>Kenobi</PackageId>
+    </PropertyGroup>
+    <ItemGroup>
+      <Folder Include="Assets\" />
+      <Folder Include="bin\Debug\net6.0\" />
+      <Folder Include="BottomPath\" />
+      <Folder Include="MiddlePath\" />
+      <Folder Include="obj\Debug\net6.0\refint\" />
+      <Folder Include="obj\Debug\net6.0\ref\" />
+      <Folder Include="TopPath\" />
+    </ItemGroup>
+    <ItemGroup>
+      <Content Include="obj\Debug\net6.0\Kenobi.AssemblyInfoInputs.cache" />
+      <Content Include="obj\Debug\net6.0\Kenobi.assets.cache" />
+      <Content Include="obj\Debug\net6.0\Kenobi.csproj.AssemblyReference.cache" />
+      <Content Include="obj\Debug\net6.0\Kenobi.GeneratedMSBuildEditorConfig.editorconfig" />
+      <Content Include="obj\Kenobi.csproj.nuget.dgspec.json" />
+      <Content Include="obj\Kenobi.csproj.nuget.g.props" />
+      <Content Include="obj\Kenobi.csproj.nuget.g.targets" />
+      <Content Include="obj\project.assets.json" />
+      <Content Include="obj\project.nuget.cache" />
+      <Content Include="obj\project.packagespec.json" />
+      <Content Include="obj\rider.project.restore.info" />
+    </ItemGroup>
+    <ItemGroup>
+      <Compile Include="obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+      <Compile Include="obj\Debug\net6.0\Kenobi.AssemblyInfo.cs" />
+      <Compile Remove="bin\**" />
+      <Compile Remove="obj\**" />
+    </ItemGroup>
+    <ItemGroup>
+      <EmbeddedResource Remove="bin\**" />
+      <EmbeddedResource Remove="obj\**" />
+    </ItemGroup>
+    <ItemGroup>
+      <None Remove="bin\**" />
+      <None Remove="obj\**" />
+    </ItemGroup>
+    
+    <Import Project="..\btd6.targets" />
+</Project>
