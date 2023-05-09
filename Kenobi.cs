@@ -9,9 +9,10 @@ namespace Kenobi
 {
    public class Kenobi : BloonsTD6Mod
    {
-      public override void OnApplicationStart()
-      {
-         ModHelper.Msg<Kenobi>("This Mod Has A Lot Of Custom Files So Be Patient If It Takes A Second To Load... Obi Wan Kenobi Now Has Loaded!");
-      }
+       public override void OnInitialize()
+       { 
+           ModHelper.Msg<Kenobi>("This Mod Has A Lot Of Custom Files So Be Patient If It Takes A Second To Load...");
+           ModHelper.Msg<Kenobi>("Kenobi Is Gaining The High Ground");
+       }
    } 
 }

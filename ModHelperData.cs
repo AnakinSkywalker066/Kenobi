@@ -9,11 +9,5 @@ public static class ModHelperData
     public const string Description = "High Ground xD";
 
     public const string RepoOwner = "AnankinSkywalker066"; 
-    public const string RepoName = "Kenobi"; 
-
-
-
-
-
-
+    public const string RepoName = "Kenobi";
 }
