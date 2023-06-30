@@ -1,11 +1,10 @@
 ﻿
-using System.Linq;
+
 using BTD_Mod_Helper;
 using BTD_Mod_Helper.Api.Towers;
 using Il2CppAssets.Scripts.Models.Towers;
 using Il2CppAssets.Scripts.Models.TowerSets;
-using Il2CppAssets.Scripts.Utils;
-
+using System.Linq;
 
 namespace Kenobi;
 
